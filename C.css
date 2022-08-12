@@ -1,0 +1,62 @@
+body{
+  display: grid;
+  place-items: center;
+  color: white;
+  background-color: black;
+  overflow-x: hidden;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: .5em;
+  width:80%;
+  height: auto;
+}
+
+textarea{
+  width:100%;
+  margin: 1.2em;
+  padding: .8em;
+  height: 16vh;
+  overflow: auto;
+  background-color: lightslategrey;
+  color: #fff;
+}
+
+textarea::placeholder{
+  color: rgba(255,255,255,.7);
+}
+.buttons{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly
+}
+
+button{
+  width: 50%;
+  padding: .6em;
+  margin: .9em;
+  border: 1px solid white;
+}
+
+.decode{
+  color: #fff;
+  background-color: green;
+}
+
+.reset{
+  color: #fff;
+  background-color: red;
+}
+
+.results{
+  width: 100%;
+  height: auto;
+  color: white;
+  background: black;
+  margin-top: 2em;
+  padding: .6em;
+}
